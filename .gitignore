@@ -1,2 +1,5 @@
 .ipynb_checkpoints
 *.log
+.paket
+packages
+*.sqlite
