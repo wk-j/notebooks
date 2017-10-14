@@ -5,3 +5,4 @@ framework: net461
 nuget FSharp.Data.TypeProviders
 nuget System.Data.SQLite 1.0.105.2
 nuget Dapper
+nuget Chessie
