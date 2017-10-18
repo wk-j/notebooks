@@ -16,3 +16,4 @@ NUGET
     System.Data.SQLite.EF6 (1.0.105.2)
       EntityFramework (>= 6.0)
     System.Data.SQLite.Linq (1.0.105.2)
+    System.ValueTuple (4.4)
