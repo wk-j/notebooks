@@ -1,5 +1,6 @@
 let max = 299L
 
+#time
 seq { 
     for i in [1L..max] do
         for j in [1L..(max + i)] do
@@ -9,3 +10,4 @@ seq {
 }
 |> Seq.sum
 |> printfn "%A"
+#time

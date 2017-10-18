@@ -7,6 +7,5 @@ IEnumerable<long> rangeM(long plus)
 }
 
 long cal(long i, long j, long k) => (i * j * k) % (i + j + k);
-
 var rs = rangeM(0).SelectMany(x => rangeM(x).SelectMany(y => rangeM(y + x).Select(z => cal(x, y, z))));
 Console.WriteLine(string.Join(",", rs.Sum()));
